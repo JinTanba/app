@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .table :where(th, td) {
+    @apply py-4 px-2;
+  }
+}
+
